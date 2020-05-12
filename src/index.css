@@ -5,10 +5,5 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #607D8B;
 }

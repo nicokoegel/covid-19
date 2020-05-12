@@ -1,1 +1,15 @@
+
+//GET DATA WORLD
 GET https://covid19.mathdro.id/api
+
+###
+// GET data Country
+GET https://covid19.mathdro.id/api/countries/TD
+
+###
+// GET Countries 
+GET https://covid19.mathdro.id/api/countries
+
+###
+//GET Daily Infections
+GET https://covid19.mathdro.id/api/daily

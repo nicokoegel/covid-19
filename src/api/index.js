@@ -1,8 +1,10 @@
 import axios from "axios";
 
+const url = 'https://covid19.mathdro.id/api';
+
 export const fetchData = async () => {
     try {
-        let { data: { confirmed, recovered, deaths, lastUpdate  } } = await axios.get('https://covid19.mathdro.id/api')
+        let { data: { confirmed, recovered, deaths, lastUpdate  } } = await axios.get(url)
         let fetchedData = {
             confirmed,
             recovered,
@@ -10,7 +12,17 @@ export const fetchData = async () => {
             lastUpdate
         }
         return fetchedData;
-    } catch{
+    } catch (err) {
+        console.error(err);
+    }
+}
 
+export const fetchDailyData = async () => {
+    try{
+        let { data } = await axios.get(`${url}/daily`);
+
+        return data.map(({ confirmed, deaths, reportDate: date }) => ({ confirmed: confirmed.total, deaths: deaths.total, date }));
+    }catch (err){
+        console.error(err);
     }
 }
