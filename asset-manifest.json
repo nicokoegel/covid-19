@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nicokoegel.github.io/covid19/static/css/main.e88c6d94.chunk.css",
-    "main.js": "/nicokoegel.github.io/covid19/static/js/main.c87c67d7.chunk.js",
-    "main.js.map": "/nicokoegel.github.io/covid19/static/js/main.c87c67d7.chunk.js.map",
-    "runtime-main.js": "/nicokoegel.github.io/covid19/static/js/runtime-main.4de45e4a.js",
-    "runtime-main.js.map": "/nicokoegel.github.io/covid19/static/js/runtime-main.4de45e4a.js.map",
-    "static/js/2.9674d103.chunk.js": "/nicokoegel.github.io/covid19/static/js/2.9674d103.chunk.js",
-    "static/js/2.9674d103.chunk.js.map": "/nicokoegel.github.io/covid19/static/js/2.9674d103.chunk.js.map",
-    "index.html": "/nicokoegel.github.io/covid19/index.html",
-    "precache-manifest.48669db86a9b44316aa82bc9cd99f0d9.js": "/nicokoegel.github.io/covid19/precache-manifest.48669db86a9b44316aa82bc9cd99f0d9.js",
-    "service-worker.js": "/nicokoegel.github.io/covid19/service-worker.js",
-    "static/css/main.e88c6d94.chunk.css.map": "/nicokoegel.github.io/covid19/static/css/main.e88c6d94.chunk.css.map",
-    "static/js/2.9674d103.chunk.js.LICENSE.txt": "/nicokoegel.github.io/covid19/static/js/2.9674d103.chunk.js.LICENSE.txt"
+    "main.css": "/covid19/static/css/main.e88c6d94.chunk.css",
+    "main.js": "/covid19/static/js/main.d0ffae3c.chunk.js",
+    "main.js.map": "/covid19/static/js/main.d0ffae3c.chunk.js.map",
+    "runtime-main.js": "/covid19/static/js/runtime-main.25158d71.js",
+    "runtime-main.js.map": "/covid19/static/js/runtime-main.25158d71.js.map",
+    "static/js/2.fee2e4ba.chunk.js": "/covid19/static/js/2.fee2e4ba.chunk.js",
+    "static/js/2.fee2e4ba.chunk.js.map": "/covid19/static/js/2.fee2e4ba.chunk.js.map",
+    "index.html": "/covid19/index.html",
+    "precache-manifest.d036137fb5b00685b34b66ecb8d53cf5.js": "/covid19/precache-manifest.d036137fb5b00685b34b66ecb8d53cf5.js",
+    "service-worker.js": "/covid19/service-worker.js",
+    "static/css/main.e88c6d94.chunk.css.map": "/covid19/static/css/main.e88c6d94.chunk.css.map",
+    "static/js/2.fee2e4ba.chunk.js.LICENSE.txt": "/covid19/static/js/2.fee2e4ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4de45e4a.js",
-    "static/js/2.9674d103.chunk.js",
+    "static/js/runtime-main.25158d71.js",
+    "static/js/2.fee2e4ba.chunk.js",
     "static/css/main.e88c6d94.chunk.css",
-    "static/js/main.c87c67d7.chunk.js"
+    "static/js/main.d0ffae3c.chunk.js"
   ]
 }
