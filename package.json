@@ -2,6 +2,7 @@
   "name": "covid-19",
   "version": "0.1.0",
   "private": true,
+  "homepage": "nicokoegel.github.io/covid19",
   "dependencies": {
     "@material-ui/core": "^4.9.14",
     "@testing-library/jest-dom": "^4.2.4",
